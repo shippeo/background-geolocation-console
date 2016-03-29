@@ -15,15 +15,13 @@ From the root project directory run these commands from the command line:
 
 This will install all dependencies.
 
-To build the project, first run this command:
+To build the project and run app in your browser, run this command:
 
     npm start
 
-This will perform an initial build and start a watcher process that will update bundle.js with any changes you wish to make.  This watcher is based on [Browserify](http://browserify.org/) and [Watchify](https://github.com/substack/watchify), and it transforms React's JSX syntax into standard JavaScript with [Reactify](https://github.com/andreypopp/reactify).
-
-To run the app in your browser, boot the web server
-
-    node server.js
+This will perform : 
+* Build and start a watcher process that will update bundle.js with any changes you wish to make. (This watcher is based on [Browserify](http://browserify.org/) and [Watchify](https://github.com/substack/watchify), and it transforms React's JSX syntax into standard JavaScript with [Reactify](https://github.com/andreypopp/reactify) 
+* Boot the web server
 
 Now visit [http://localhost:8080](http://localhost:8080)
 
